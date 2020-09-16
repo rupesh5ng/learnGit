@@ -1,0 +1,48 @@
+Learn Git
+
+Step 1 : Check if git is already installed
+	- open terminal   * git  —version
+	- if it’s not installed you will get error message
+	- then you have to download it
+
+Step2 : signup and create a github account 
+
+Step 3 :add your GitHub email and user name to git
+	- open terminal and do this step
+	* git config — global user.name “rupesh5ng”
+
+	* git config — global user.email “rupesh_singh87@yahoo.com”
+Step 4: Actual git operations Strats now
+	-Add file/folders to git - tracking
+Step 5 : Commands
+	- terminal - goto the location of the folder in terminal 
+	- you can use the location directly or use
+           Ls/cd command to go to the folder using terminal
+	- git init
+		use below code to hide/unhide your folder 
+		(defaults write com.apple.finder AppleShowAllfiles YES)
+	- git status
+	- git add “file name”
+	- git commit -m”whatever message you want to give”
+	- touch index.html (creating new file )
+	- git add ( use *.txt / *.* / .)
+	- git commit -m “added index.html & modified .txt file”
+
+Step 6 : GitHub account create repository
+  	- copy the location of the repository (url)
+	-in terminal use below code
+
+	git remote add origin “url location of the repository”
+
+	- git remote add origin “ location of the remote repository”
+	- git push -u origin master
+	- git log
+	- git — help
+	
+        
+
+
+
+
+-I learned it from YouTube
+- https://www.youtube.com/watch?v=0Icla6TVNNo
